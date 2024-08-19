@@ -10,7 +10,7 @@ body {
   .sidebar { 
     height: 96.75vh;
     width: 7%;
-    position: static;
+    position: fixed;
     padding-top: 16px;
     padding-left: 3%;
     padding-bottom: 16px;
