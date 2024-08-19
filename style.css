@@ -3,7 +3,26 @@
    "how to change link color." */
 
 body {
-  background-color: #151515;
+  background-color: #202020;
   color: white;
   font-family: 'Arial', sans-serif;
+  
+  .sidebar { 
+    height: 100%;
+    width: 128px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 16px;
+    padding-left: 32px;
+    background-color: black;
+  }
+  .main { 
+      height: 100%;
+      width: 75%; 
+      position: absolute;
+      left: 25%;
+      top: 0;
+      padding-top: 16px;
+  }
 }
