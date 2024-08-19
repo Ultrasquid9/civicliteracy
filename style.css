@@ -14,12 +14,12 @@ body {
     left: 0;
     top: 0;
     padding-top: 16px;
-    padding-left: 32px;
+    padding-left: 48px;
     background-color: black;
   }
   .main { 
       height: 100%;
-      width: 75%; 
+      width: 55%; 
       position: absolute;
       left: 25%;
       top: 0;
