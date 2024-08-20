@@ -28,8 +28,9 @@ body {
   }
 
   @media (pointer:none), (pointer:coarse) {
+    font-size: 2em;
+      
     .sidebar {
-      font-size: 2em;
       height: auto;
       max-height: 25vh;
       min-height: 128px;
