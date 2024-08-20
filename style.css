@@ -2,7 +2,7 @@ body {
   background-color: #202020;
   color: white;
   font-family: 'Arial', sans-serif;
-  font-size: 1em;
+  /* font-size: 1em; */
   
   .sidebar { 
     height: 96.75vh;
