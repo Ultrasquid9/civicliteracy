@@ -31,13 +31,15 @@ body {
 
   @media (pointer:none), (pointer:coarse) {
     .sidebar {
+      position: relative;
       width: 99%;
       padding-left: 16px;
-      padding-bottom: 3%;
     }
     .main {
       width: 99%;
       padding-right: 16px;
+      padding-left: 16px;
+      left:0%
     }
   }
 }
