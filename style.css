@@ -9,7 +9,8 @@ body {
   
   .sidebar { 
     height: 96.75vh;
-    width: 7%;
+    width: 7vw;
+    min-width: 100px;
     position: fixed;
     padding-top: 16px;
     padding-left: 3%;
@@ -22,6 +23,7 @@ body {
       width: 55%; 
       position: fixed;
       left: 25%;
+      padding-left: 16px;
       top: 0;
       padding-top: 16px;
   }
