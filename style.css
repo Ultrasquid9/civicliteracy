@@ -26,3 +26,19 @@ body {
       padding-top: 16px;
   }
 }
+
+a:link {
+  color: #18f06b;
+}
+
+a:visited {
+  color: #11d43b;
+}
+
+a:hover {
+  color: #23badb;
+}
+
+a:active {
+  color: #28fce4;
+} 
