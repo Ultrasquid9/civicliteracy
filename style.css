@@ -42,7 +42,7 @@ body {
     .main {
       width: 95%;
       height: auto;
-      max-height: 65%;
+      max-height: calc(75vh-32px);
       padding-bottom: 16px;
       padding-right: 16px;
       left:0%;
