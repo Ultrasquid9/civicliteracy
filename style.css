@@ -2,7 +2,7 @@ body {
   background-color: #202020;
   color: white;
   font-family: 'Arial', sans-serif;
-  font-size: 1em;
+  font-size: 16px;
 
   .sidebar { 
     position: absolute;
@@ -31,15 +31,15 @@ body {
   }
 
   @media (orientation: portrait) {
-    font-size: 1.5em;
+    font-size: calc(16px + 1vw);
       
     .sidebar {
       top: auto;
       right: 10px;
       width: auto;
-      padding-left: 7.5%;
+      padding-left: 10%;
       height: 25vh;
-      font-size: 2em;
+      font-size: 4.5vw;
     }
     .main {
       width: 84%;
@@ -47,7 +47,7 @@ body {
       max-height: 75%;
       padding-bottom: 16px;
       padding-right: 16px;
-      left: 8%;
+      left: 6.5%;
       margin-bottom: 16px;
     }
   }
