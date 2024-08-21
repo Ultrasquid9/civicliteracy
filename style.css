@@ -31,7 +31,7 @@ body {
   }
 
   @media (pointer:none), (pointer:coarse) {
-    font-size: 5vw;
+    font-size: 2vw;
       
     .sidebar {
       top: 75vh;
