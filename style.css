@@ -5,15 +5,17 @@ body {
   font-size: 1em;
 
   .sidebar { 
-    height: 96.75vh;
-    width: 7vw;
-    min-width: 100px;
-    position: fixed;
-    padding-top: 16px;
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+    left: 10px;
     padding-left: 3%;
-    padding-bottom: 16px;
+    min-height: 128px;
+    min-width: 100px;
+    width: 7vw;
     background-color: black;
     border-radius: 25px;
+    overflow-y: auto;
     z-index: 999;
   }
   .main { 
@@ -29,17 +31,12 @@ body {
   }
 
   @media (pointer:none), (pointer:coarse) {
-    font-size: 2em;
+    font-size: 5vw;
       
     .sidebar {
-      height: auto;
-      max-height: 25vh;
-      min-height: 128px;
-      overflow-y: auto;
-      bottom: 16px;
-      width: 93vw;
-      padding-left: 16px;
-      margin-top: 16px;
+      top: 75vh;
+      right: 10px;
+      width: auto;
     }
     .main {
       width: 95%;
