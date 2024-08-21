@@ -30,15 +30,17 @@ body {
       line-height: 150%;
   }
 
-  @media (pointer:none), (pointer:coarse) {
-    font-size: 2vw;
+  @media (orientation: portrait) {
+    /* font-size: 2vw; */
       
     .sidebar {
-      top: 75vh;
+      top: auto;
       right: 10px;
       width: auto;
       padding-left: 7.5%;
-      font-size: 5vw;
+      height: 25vh;
+      min-height: 200px;
+      font-size: 3vh;
     }
     .main {
       width: 84%;
