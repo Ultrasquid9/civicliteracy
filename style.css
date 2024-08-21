@@ -23,8 +23,9 @@ body {
       left: 25%;
       padding-left: 16px;
       top: 0;
-      padding-top: 16px;
+      padding-top: 24px;
       overflow-y: scroll;
+      line-height: 150%;
   }
 
   @media (pointer:none), (pointer:coarse) {
