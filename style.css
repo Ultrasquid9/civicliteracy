@@ -31,7 +31,7 @@ body {
   }
 
   @media (orientation: portrait) {
-    /* font-size: 2vw; */
+    font-size: 1.25em;
       
     .sidebar {
       top: auto;
@@ -39,8 +39,7 @@ body {
       width: auto;
       padding-left: 7.5%;
       height: 25vh;
-      min-height: 200px;
-      font-size: 3vh;
+      font-size: 2em;
     }
     .main {
       width: 84%;
