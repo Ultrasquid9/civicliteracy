@@ -31,7 +31,7 @@ body {
   }
 
   @media (orientation: portrait) {
-    font-size: 1.25em;
+    font-size: 1.5em;
       
     .sidebar {
       top: auto;
