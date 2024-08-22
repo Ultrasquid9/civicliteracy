@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      p {padding: 0.5vw; transition: 0.25s;}
+    </style>
+  </head>
+  <body>
+  <div class="sidebar">
+    <h2>Pages</h2>
+    <a href="./index.html"><h3>Home</h3></a>
+    <a href="./trivia.html"><h3>Trivia</h3></a>
+    <a href="./sillicat.html"><h3>Sillicat</h3></a>
+    <a href="./credits.html"><h3>Credits</h3></a>
+    <a href="https://github.com/Ultrasquid9/civicliteracy"><h3>Source</h3></a>
+  </div>
+  <div class="main">
+
+    <h1>Civic Trivia!</h1>
+    <p style="padding: 0;">Try out this trivia, and see how many answers you can get!</p>
+    <br>
+
+    <h3>1. What kind of government does the United States have?</h3>
+    <p id="q1">Please choose an answer.</p>
+    <button type="button" onclick='answerFalse("q1")'>Aristocracy</button>
+    <button type="button" onclick='answerFalse("q1")'>Monarchy</button>
+    <button type="button" onclick='answerTrue ("q1")'>Democracy</button>
+    <button type="button" onclick='answerFalse("q1")'>Ogliarchy</button>
+    <br>
+    
+    <h3>2. What are the first ten amendments to the Constitution called?</h3>
+    <p id="q2">Please choose an answer.</p>
+    <button type="button" onclick='answerFalse("q2")'>The Articles</button>
+    <button type="button" onclick='answerFalse("q2")'>The Preamble</button>
+    <button type="button" onclick='answerFalse("q2")'>The Declaration Of Rights</button>
+    <button type="button" onclick='answerTrue ("q2")'>The Bill Of Rights</button>
+    <br>
+    
+    <h3>3. How long is a U.S. Senator's term in office?</h3>
+    <p id="q3">Please choose an answer.</p>
+    <button type="button" onclick='answerFalse("q3")'>10 Years</button>
+    <button type="button" onclick='answerTrue ("q3")'>6 Years</button>
+    <button type="button" onclick='answerFalse("q3")'>No Time Limit</button>
+    <button type="button" onclick='answerFalse("q3")'>1 Year</button>
+    <br>
+
+    <script>
+      function answerTrue(questionnum) {
+        var answer = document.getElementById(questionnum);
+        style(answer);
+        answer.style.backgroundColor = "#11d43b";
+        answer.innerHTML = "True!";
+      }
+      function answerFalse(questionnum) {
+        var answer = document.getElementById(questionnum);
+        style(answer);
+        answer.style.backgroundColor = "red";
+        answer.innerHTML = "False";
+      }
+      function style(answer) {
+        answer.style.borderRadius = "6.5vw";
+        answer.style.color = "black";
+        answer.style.width = "fit-content";
+      }
+    </script>
+
+  </div>
+  </body>
+</html>

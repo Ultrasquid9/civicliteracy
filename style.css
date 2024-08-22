@@ -2,7 +2,7 @@ body {
   background-color: #202020;
   color: white;
   font-family: 'Arial', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
 
   .sidebar { 
     position: absolute;
@@ -19,15 +19,15 @@ body {
     z-index: 999;
   }
   .main { 
-      height: 100%;
-      width: 55%; 
-      position: fixed;
-      left: 25%;
-      padding-left: 16px;
-      top: 0;
-      padding-top: 24px;
-      overflow-y: scroll;
-      line-height: 150%;
+    height: 100%;
+    width: 55%; 
+    position: fixed;
+    left: 25%;
+    padding-left: 16px;
+    top: 0;
+    padding-top: 24px;
+    overflow-y: scroll;
+    line-height: 150%;
   }
 
   @media (orientation: portrait), (pointer:none), (pointer:coarse) {
@@ -54,8 +54,25 @@ body {
   }
 }
 
+button {
+  background-color: black;
+  border: 0.1vw solid transparent;
+  color: #11d43b;
+  font-size: 1em;
+  padding: 0.4vw;
+  width: fit-content;
+  border-radius: 6.5vw;
+}
+
+button:hover {
+  color: #23babd;
+  border: 0.1vw solid #23babd;
+  padding: 0.4vw;
+  transition: 0.25s;
+}
+
 a:link {
-  color: #18f06b;
+  color: #11d43b;
 }
 
 a:visited {
@@ -64,6 +81,7 @@ a:visited {
 
 a:hover {
   color: #23badb;
+  transition: 0.25s;
 }
 
 a:active {
@@ -71,5 +89,5 @@ a:active {
 } 
 
 img {
-    width: 100%;
+  width: 100%;
 }
