@@ -30,7 +30,7 @@ body {
       line-height: 150%;
   }
 
-  @media (orientation: portrait) {
+  @media (orientation: portrait), (pointer:none), (pointer:coarse) {
     font-size: calc(16px + 1vw);
       
     .sidebar {
