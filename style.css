@@ -18,6 +18,7 @@ body {
     overflow-y: auto;
     z-index: 999;
   }
+  
   .main { 
     height: 100%;
     width: 55%; 
@@ -29,30 +30,6 @@ body {
     overflow-y: scroll;
     line-height: 150%;
   }
-
-  @media (orientation: portrait), (pointer:none), (pointer:coarse) {
-    font-size: calc(16px + 1vw);
-      
-    .sidebar {
-      top: auto;
-      right: 10px;
-      width: auto;
-      padding-left: 10%;
-      height: 25vh;
-      font-size: 4.5vw;
-      border-radius: 6.5vw;
-    }
-    .main {
-      width: 84%;
-      height: auto;
-      max-height: 75%;
-      padding-bottom: 16px;
-      padding-right: 16px;
-      left: 6.5%;
-      margin-bottom: 16px;
-    }
-  }
-}
 
 button {
   background-color: black;
@@ -69,6 +46,31 @@ button:hover {
   border: 0.1vw solid #23babd;
   padding: 0.4vw;
   transition: 0.25s;
+}
+
+  @media (orientation: portrait), (pointer:none), (pointer:coarse) {
+    font-size: calc(16px + 1vw);
+      
+    .sidebar {
+      top: auto;
+      right: 10px;
+      width: auto;
+      padding-left: 10%;
+      height: 25vh;
+      font-size: 4.5vw;
+      border-radius: 6.5vw;
+    }
+    
+    .main {
+      width: 84%;
+      height: auto;
+      max-height: 75%;
+      padding-bottom: 16px;
+      padding-right: 16px;
+      left: 6.5%;
+      margin-bottom: 16px;
+    }
+  }
 }
 
 a:link {
