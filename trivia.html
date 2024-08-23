@@ -3,7 +3,12 @@
   <head>
     <link rel="stylesheet" href="./style.css">
     <style>
-      p {padding: 0.5vw; transition: 0.25s;}
+      p {
+        padding: 0.5vh; 
+        transition: 0.25s;
+        border-radius: 9999px;
+        width: fit-content;
+      }
     </style>
   </head>
   <body>
@@ -69,20 +74,15 @@
     <script>
       function answerTrue(questionnum) {
         var answer = document.getElementById(questionnum);
-        style(answer);
+        answer.style.color = "black";
         answer.style.backgroundColor = "#11d43b";
         answer.innerHTML = "True!";
       }
       function answerFalse(questionnum) {
         var answer = document.getElementById(questionnum);
-        style(answer);
+        answer.style.color = "black";
         answer.style.backgroundColor = "red";
         answer.innerHTML = "False";
-      }
-      function style(answer) {
-        answer.style.borderRadius = "6.5vw";
-        answer.style.color = "black";
-        answer.style.width = "fit-content";
       }
     </script>
 

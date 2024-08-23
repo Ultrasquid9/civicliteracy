@@ -33,22 +33,21 @@ body {
 
 button {
   background-color: black;
-  border: 0.1vw solid transparent;
+  border: 0.2vh solid transparent;
   color: #11d43b;
   font-size: 1em;
-  padding: 0.4vw;
+  padding: 0.6vh;
   width: fit-content;
   border-radius: 6.5vw;
 }
 
 button:hover {
   color: #23babd;
-  border: 0.1vw solid #23babd;
-  padding: 0.4vw;
+  border: 0.2vh solid #23babd;
   transition: 0.25s;
 }
 
-  @media (orientation: portrait), (pointer:none), (pointer:coarse) {
+  @media (max-aspect-ratio: 2/3) {
     font-size: calc(16px + 1vw);
       
     .sidebar {
