@@ -41,6 +41,10 @@ button {
   border-radius: 6.5vw;
 }
 
+img {
+  width: 50%;
+}
+
 button:hover {
   color: #23babd;
   border: 0.2vh solid #23babd;
@@ -69,6 +73,10 @@ button:hover {
       left: 6.5%;
       margin-bottom: 16px;
     }
+
+    img {
+      width: 80%;
+    }
   }
 }
 
@@ -88,7 +96,3 @@ a:hover {
 a:active {
   color: #28fce4;
 } 
-
-img {
-  width: 100%;
-}
