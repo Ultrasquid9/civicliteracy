@@ -1,6 +1,5 @@
 const Pictures = [
-    "./sillicat/neocities.png",
-    "./sillicat/neocities2.png"
+    "./sillicat/sillicat-discovers-america.png"
 ];
 
 function PrintFirst() {
