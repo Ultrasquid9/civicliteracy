@@ -13,11 +13,11 @@ function PrintAll() {
 }
 
 function EmbedImage(picture) {
-    const h2 = document.createElement('h2'); 
-    h2.textContent = picture[0];
+    const h3 = document.createElement('h3'); 
+    h3.textContent = picture[0];
     
     const img = document.createElement('img'); 
     img.src = picture[1];
     
-    document.getElementById("image").append(h2,img);
+    document.getElementById("image").append(h3,img);
 }
