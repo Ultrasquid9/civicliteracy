@@ -1,5 +1,5 @@
 const Pictures = [
-    "./sillicat/sillicat-discovers-america.png"
+    ["Sillicat Discovers America","./sillicat/sillicat-discovers-america.png"]
 ];
 
 function PrintFirst() {
@@ -13,9 +13,11 @@ function PrintAll() {
 }
 
 function EmbedImage(picture) {
+    const h2 = document.createElement('h2'); 
+    h2.textContent = picture[0];
+    
     const img = document.createElement('img'); 
-    img.src = picture;
-    document.getElementById("image").insertAdjacentHTML = "\n";
-    document.getElementById("image").appendChild(img);
+    img.src = picture[1];
+    
+    document.getElementById("image").append(h2,img);
 }
-
